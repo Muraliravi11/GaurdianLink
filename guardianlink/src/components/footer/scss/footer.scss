@@ -1,0 +1,75 @@
+.footer{
+    &__wrap{
+        background: $gl-black;
+        color:$gl-white;
+        padding: 70px 2em 50px 2em;
+        
+        @media (min-width: $gl-screen-lg) {
+            display: flex;  
+            padding: 70px 4em 50px 4em;
+        }
+    }    
+    &__logo-wrap{
+        text-align: center;
+        h5{
+            margin-bottom: 10px;
+        }
+        @media (min-width: $gl-screen-lg) {
+            flex: 0 0 33.333333%;
+            max-width: 33.333333%;
+            text-align: center;
+        }
+        img{
+            margin-bottom: 10px;
+            max-width: 70%;
+            @media (min-width: $gl-screen-lg) {
+                max-width: 100%;
+            }
+        }
+    }
+    &__list-wrap{
+        text-align: center;
+        margin-top: 1em;
+        padding-top: 0.7em;
+        position: relative;
+        @media (min-width: $gl-screen-lg) {
+            flex: 0 0 16.666667%;
+            max-width: 16.666667%;
+            border-right: 1px solid #fff;
+            text-align: left;
+        }
+        .nav__list{
+            padding-bottom: 1.5em;
+        }
+    }
+    &__invite-wrap{
+        text-align: center;
+        margin-top: 30px;
+        @media (min-width: $gl-screen-lg) {
+            flex: 0 0 50%;
+            max-width: 50%;
+            text-align: right;
+            margin-top: 0;
+        }
+        .nft_brand{
+            h2{
+                margin-bottom: 10px;
+                .roun_icon{
+                    display: block;
+                    margin: auto;
+                    @media (min-width: $gl-screen-lg) {
+                        margin-right: 15px;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+        .subscribe{
+            max-width: 450px;
+            margin: 0 0 0 auto;
+            h3{
+                margin-top: 30px;
+            }
+        }
+    }
+}

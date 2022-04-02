@@ -1,0 +1,26 @@
+////////////////////
+// COLORS
+////////////////////
+
+////////////////////
+// RAW
+////////////////////
+$gl-white: #fff;
+$gl-black: #000;
+$gl-orange_red: #EE220C;
+$gl-Iridium : #3b3b3b;
+$gl-davy_grey: #555555;
+$gl-pink: #ff42a1;
+////////////////////
+// ASSIGN
+////////////////////
+.white_color {
+    color: $gl-white;
+}
+.red_txt {
+    color: $gl-orange_red;
+}
+
+.pink_color{
+    color: $gl-pink;
+}

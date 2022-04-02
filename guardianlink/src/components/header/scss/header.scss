@@ -1,0 +1,34 @@
+.header{
+    &__wrap{
+      background-color: $gl-black;
+      padding: $gl-spacing-15 $gl-spacing-10;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: $gl-white;
+      border-bottom: 1px solid;
+      position: sticky;
+      top: 0;
+      z-index: 9;
+    }
+    &__logo{
+      max-width: 40%;
+      @media (min-width: $gl-screen-md) {
+        max-width: 20%;
+      }
+      
+      padding-left: $gl-spacing-20;
+      img{
+        max-width: 75%;
+      }
+    }
+    &__list{
+      display: flex;
+      margin: 0;
+      li{
+        @extend %gl-font-p1;
+        padding: $gl-spacing-10;
+        margin-right: $gl-spacing-15;
+      }
+    }
+  }

@@ -1,0 +1,31 @@
+.hero-banner{
+    &__wrap{
+        height: 85vh;
+        position: relative;
+        display: flex;
+        align-items: center;
+        .react-video{
+            position: absolute;
+            left: 0;
+            right: 0;
+            video{
+                object-fit: cover;
+            }
+        }
+    }
+    &__slide{
+        position: relative;
+        z-index: 1;
+        padding: 4em 1em;
+        .item{
+            color: $gl-white;
+            h2{
+                font-size: 27px;
+                margin: 0 0 10px;
+                @media (min-width: $gl-screen-lg) {
+                     font-size: 48px;
+                }
+            }
+        }
+    }
+}

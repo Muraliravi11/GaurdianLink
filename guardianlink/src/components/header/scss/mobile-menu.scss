@@ -1,0 +1,69 @@
+.sidebar{
+    &__menu{
+        position: fixed;
+        top: -30px;
+        right: 0;
+        z-index: 100000;
+        bottom: 0;
+        display: block;
+        left: auto;
+        width: 0;
+        transition: 0.5s;
+        
+        .hamberger_menu{
+            margin-top: 45px;
+            margin-right: 20px;
+            cursor: pointer;
+            transition: 0.8s ease;
+            float: right;
+            span{
+                display: block;
+                height: 4px;
+                width: 25px;
+                background-color: #ed2d34;
+                margin-bottom: 4px;
+                transition: 0.7s ease;
+                &:first-child, &:last-child{
+                    width: 16px;
+                }
+            }
+        }
+
+        &.isOpen{
+            width: 70%;
+            background: #ed2d34;
+            .hamberger_menu{
+                margin-top: 55px;
+                span{
+                    background-color: $gl-white;
+                    &:nth-child(1){
+                        width: 25px;
+                        transform: rotate(45deg);
+                        margin-bottom: -4px;
+                    }
+                    &:nth-child(2){
+                        display: none;
+                    }
+                    &:nth-child(3){
+                        width: 25px;
+                        transform: rotate(130deg);
+                    }
+                }
+            }
+        }
+
+        .sidebar__menu-list{
+            padding-left: 35px;
+            padding-top: 70px;
+            padding-bottom: 30px;
+            .nav__list{
+                margin: 20px 0;
+                .nav__link-btn{
+                    display: inline-block;
+                    background-color: transparent;
+                    border-color:$gl-white;
+                }
+            }
+        }
+    }
+}

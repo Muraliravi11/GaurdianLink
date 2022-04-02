@@ -1,0 +1,247 @@
+.section{
+    text-align: center;
+    max-width: 100%;
+    padding: 60px 10px;
+    position: relative;
+    overflow: hidden;
+    @media (min-width: $gl-screen-lg) {
+        padding: 110px 80px;
+    }
+    &.pb-0{
+        padding-bottom: 0;
+    }
+    &.orange__gradient--dark{
+        color: $gl-black;
+        background-image: linear-gradient(to right, #fe900a, #e95f95);
+    }
+    &.orange_gradient--light{
+        background-image: linear-gradient(to right, #fef67a, #e96498);
+    }
+    &.yellow_gradient--dark{
+        background-image: linear-gradient(to right, #fef67a, #e96498);
+    }
+    &__heading{
+        h2{
+            font-size: 24px;
+            margin:  0 0 10px;
+            @media (min-width: $gl-screen-lg) {
+                font-size: 54px;
+              }
+            .roun_icon{
+                display: block;
+                margin: auto;
+                @media (min-width: $gl-screen-lg) {
+                    display: inline-block;
+                  }
+            }
+            &.smart-tit{
+                font-size: 34px;
+                max-width: 5em;
+                text-align: left;
+                margin: 0 auto;
+                position: relative;
+                padding-left: 2.5em;
+                line-height: 1;
+                @media (min-width: $gl-screen-lg) {
+                    max-width: 6em;
+                }
+                .high-num{
+                    font-size: 1.7em;
+                    vertical-align: middle;
+                    line-height: 1;
+                    position: absolute;
+                    top: -10px;
+                    left: 0;
+                    color: $gl-white;
+                    @media (min-width: $gl-screen-lg) {
+                        top: -45px;
+                    }
+                }
+                span{
+                    display: block;
+                }
+                .sm-text{
+                    font-size: 14px;
+                    margin-top: 10px;
+                    @media (min-width: $gl-screen-lg) {
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+        margin-bottom: 40px;
+
+    }
+    &__heading2{
+        h4{
+            margin-top: 3rem;
+            margin-bottom: 10px;
+            font-family: $gl-font-family-bold;
+            font-size: 27px;
+        }
+    }
+
+    &__text{
+        max-width: 32em;
+        margin: 0 auto 25px;
+        font-size: 14px;
+        line-height: 22px;
+        @media (min-width: $gl-screen-lg) {
+            font-size: 19px;
+            line-height: 28px;
+          }
+    }
+
+    &__black-btn{
+        background: $gl-black;
+        padding: 15px 30px 15px;
+        border-radius: 50px;
+        max-width: max-content;
+        margin: 40px auto 0;
+        display: block;
+    }
+    .sub_form{
+        h3{
+            font-size: 42px;
+            margin: 50px 0 15px;
+        }
+        p{
+            max-width: 650px;
+            margin: 10px auto 25px;
+        }
+    }
+    .hm_image{
+        position: relative;
+        right: -15px;
+        width: 60%;
+        float: right;
+        @media (min-width: $gl-screen-lg) {
+            position: absolute;
+            bottom: 0;
+            right: 0px;
+            width: 22%;
+          }
+    }
+    .hm_image_static{
+        max-width: 90%;
+        margin-top: 25px;
+        vertical-align: bottom;
+        @media (min-width: $gl-screen-lg) {
+            max-width: 40%;
+        }
+    }
+    .hm_image_static2{
+        max-width: 60%;
+        margin-top: 25px;
+        vertical-align: bottom;
+        @media (min-width: $gl-screen-lg) {
+            max-width: 30%;
+        }
+    }
+    .db_screen{
+        height: auto;
+        position: relative;
+        width: 70%;
+        margin: 0 auto;
+        img{
+            position: relative;
+            width: 100%;
+            bottom: -60px;
+        }
+        @media (min-width: $gl-screen-lg) {
+            height: 27em;
+            position: relative;
+            width: 100%;
+            margin-top: -23em;
+            img{
+                position: absolute;
+                width: 30%;
+                bottom: -10em;
+                left: -80px;
+            }
+        }
+    }
+    .creative-icon{
+        margin-top: 50px;
+    }
+    &.journey{
+        background-image: linear-gradient(to right, #ff8f00, #ff2800);
+        
+        .section__heading{
+            margin-top: 50px;
+            h2{
+                .roun_icon{
+                    width: 0.7em;
+                    height: 0.7em;
+                    background: #fff;
+                    border: 0.15em solid #ff2600;
+                }
+                .dancing_man{
+                    max-width: 100%;
+                    position: relative;
+                    top: 40px;
+                    margin-top: -56px;
+                    z-index: 8;
+                    left: -16px;
+                }
+            }
+        }
+        p{
+            margin-bottom: 25px;
+            &.bold{
+                font-family: $gl-font-family-medium;
+            }
+        }
+        .count__sec-wrap{
+            max-width: 50em;
+            margin: 40px auto 0;
+            
+            @media (min-width: $gl-screen-lg) {
+                display: flex;
+                justify-content: space-between;
+            }
+            .count__sec{
+                padding: 0 10px;
+                .num_s{
+                    text-align: left;
+                    position: relative;
+                    padding-left: 154px;
+                    margin-bottom: 35px;
+                    h2{
+                        font-size: 23px;
+                    }
+                    .h_num{
+                        font-size: 45px;
+                        color: #fff;
+                        position: absolute;
+                        width: 134px;
+                        display: block;
+                        left: 0;
+                        text-align: right;
+                        top: 0;
+                    }
+                    @media (min-width: $gl-screen-lg) {
+                        margin-bottom: 60px;
+                        h2{
+                            font-size: 35px;
+                        }
+                        .h_num{
+                            font-size: 70px;
+                        }
+                    }
+                }
+                @media (min-width: $gl-screen-lg) {
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+.border-line{
+    border-bottom: 1px solid #000;
+    clear: both;
+}
+
+.support_section{
+    padding: 100px 0;
+}

@@ -1,0 +1,58 @@
+.one-line-form{    
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto;
+    position: relative;
+    padding: 7px;
+    color: #fff;
+    background: #1F1F1F;
+    border-radius: 33px;
+    -webkit-border-radius: 33px;
+    .form-control{
+        position: relative;
+        input{
+            @extend %gl-font-p1;
+            border: none;
+            width: 100%;
+            -webkit-border-radius: 23px;
+            -moz-border-radius: 23px;
+            padding: 9px 20px;
+            box-sizing: border-box;
+            outline: none;
+            color: #A2A2A2;
+            font-size: 21px;
+            line-height: 1.6;
+            font-weight: 400;
+            -ms-word-wrap: break-word;
+            word-wrap: break-word;
+            margin-bottom: 0px;
+            background: #ffffff00;
+        }
+    }
+    button{
+        position: absolute;
+        right: 8px;
+        top: 8px;
+        bottom: 0;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        border: 0;
+    }
+     &.nft_rule-form{
+        background: #ffffff7d;
+        .form-control{
+            input{
+                color: #000;
+            }
+        }
+    }
+}
+.error-msg{
+    margin-top: 10px;
+    padding-left: 20px;
+    text-align: left;
+}
