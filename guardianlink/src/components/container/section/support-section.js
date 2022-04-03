@@ -1,5 +1,6 @@
 import SupportWidget from "components/shared-ui/support-widget"
 import { Image } from "components/shared-ui/image"
+import LinkBtn from "components/shared-ui/link-btn"
 
 export const SupportSection = () => { 
     return (
@@ -27,7 +28,7 @@ export const SupportSection = () => {
                 <Image src="https://cdn.guardianlink.io/product-hotspot/images/widget_4.png" />
             </SupportWidget>
 
-            <a href='https://www.guardianlink.io/' className='section__black-btn'>Power with Partnership {'>'}</a>
+            <LinkBtn href='https://www.guardianlink.io/' className='section__black-btn'>Power with Partnership {'>'}</LinkBtn>
 
         </section>
     )

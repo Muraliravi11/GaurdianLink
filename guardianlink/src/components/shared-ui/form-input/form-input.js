@@ -1,11 +1,15 @@
 import React, { useState } from 'react';
-
+import { useWindowSize } from 'components/utils/useWindowSize';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRightLong} from '@fortawesome/free-solid-svg-icons';
 
-export const FormInput = ({ className }) => { 
+export const FormInput = ({ className, subscribeBtn }) => { 
     const [email, setEmail] = useState('');
-    const [error, setError]= useState(false)
+    const [error, setError] = useState(false);
+
+    const { width } = useWindowSize();
+
+    const isMobile = width <= 1024;
 
     function handleChange(e) { 
         const { value } = e.target;
@@ -30,7 +34,9 @@ export const FormInput = ({ className }) => {
                 <div className='form-control'>
                     <input type='text' name='email' placeholder='name@domain.com' value={email} onChange={handleChange}/>
                 </div>
-                <button type='submit'><FontAwesomeIcon icon={faRightLong}/></button>
+                <button type='submit' className={`${ subscribeBtn && !isMobile ? 'subscribe' : ''}`}>
+                    {subscribeBtn   && !isMobile && <span>Subscribe</span>} <span className='arrow_icon'><FontAwesomeIcon icon={faRightLong} /></span>
+                </button>
             </form>
             {error && <p className='error-msg'>Please enter a valid email address</p>}
         </div>

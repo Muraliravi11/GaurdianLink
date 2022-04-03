@@ -18,7 +18,7 @@
         background-image: linear-gradient(to right, #fef67a, #e96498);
     }
     &.yellow_gradient--dark{
-        background-image: linear-gradient(to right, #fef67a, #e96498);
+        background-image: linear-gradient(to right, #fc725c, #fff677);
     }
     &__heading{
         h2{
@@ -45,6 +45,7 @@
                 line-height: 1;
                 @media (min-width: $gl-screen-lg) {
                     max-width: 6em;
+                    font-size: 44px;
                 }
                 .high-num{
                     font-size: 1.7em;
@@ -95,15 +96,6 @@
             font-family: $gl-font-family-medium;
         }
     }
-
-    &__black-btn{
-        background: $gl-black;
-        padding: 15px 30px 15px;
-        border-radius: 50px;
-        max-width: max-content;
-        margin: 40px auto 0;
-        display: block;
-    }
     .sub_form{
         h3{
             font-size: 42px;
@@ -119,6 +111,7 @@
         right: -15px;
         width: 60%;
         float: right;
+        bottom: -60px;
         @media (min-width: $gl-screen-lg) {
             position: absolute;
             bottom: 0;
@@ -312,12 +305,12 @@
             justify-content: center;
         }
     }
+    &.support_section{
+        padding: 100px 0;
+    }
 }
 .border-line{
     // border-bottom: 1px solid #000;
     clear: both;
 }
 
-.support_section{
-    padding: 100px 0;
-}

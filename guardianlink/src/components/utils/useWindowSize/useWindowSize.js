@@ -1,8 +1,9 @@
 import { useState, useLayoutEffect } from 'react';
 import throttle from 'lodash.throttle';
 
+const isBrowser = typeof window !== 'undefined';
+
 export const useWindowSize = (initialWidth = Infinity, initialHeight = Infinity) => {
-  const isBrowser = typeof window !== 'undefined';
   
   const [state, setState] = useState( {
     width: isBrowser ? window.innerWidth : initialWidth,

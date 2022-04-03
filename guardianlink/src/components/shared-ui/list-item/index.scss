@@ -34,6 +34,7 @@
 				transform: rotate(45deg);
 				-webkit-transform: rotate(45deg);
 				margin-left: 0.8em;
+				margin-top: 3px;
 				vertical-align: top;
 			}
 		}
@@ -43,7 +44,7 @@
 			li{
 				margin-bottom: 15px;
 				a{
-					font-size: 15px;
+					font-size: 18px;
 					&::before{
 						content: "";
 						width: 0;
@@ -70,7 +71,6 @@
 				padding: 0.8em;
 				border: 0px solid $gl-davy_grey;
 				li{
-					margin-bottom: 0;
 					a{
 						&::before{
 							content: none;

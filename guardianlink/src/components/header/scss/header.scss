@@ -27,8 +27,10 @@
       margin: 0;
       li{
         @extend %gl-font-p1;
-        padding: $gl-spacing-10;
         margin-right: $gl-spacing-15;
+        a{
+          padding: $gl-spacing-10;
+        }
       }
     }
   }

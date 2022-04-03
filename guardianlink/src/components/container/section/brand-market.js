@@ -1,4 +1,5 @@
 import { Image } from 'components/shared-ui/image';
+import LinkBtn from "components/shared-ui/link-btn"
 
 export const BrandMarket = () => { 
     return (
@@ -12,7 +13,7 @@ export const BrandMarket = () => {
            <div className='section__heading2'>
                 <h4 >Want to learn more about GuardianLink platform?</h4>
             </div>
-            <a href="https://www.guardianlink.io/" className='section__black-btn'>Schedule A Meeting</a>
+            <LinkBtn href='https://www.guardianlink.io/' className='section__black-btn'>Schedule A Meeting</LinkBtn>
 
             <Image src='https://cdn.guardianlink.io/product-hotspot/images/marketplace_hand.png' className='hm_image' />
         </section>

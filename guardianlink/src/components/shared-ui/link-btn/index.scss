@@ -1,0 +1,13 @@
+.section__black-btn{
+    background: $gl-black;
+    padding: 15px 30px 15px;
+    border-radius: 50px;
+    max-width: max-content;
+    margin: 40px auto 0;
+    display: block;
+    line-height: normal;    
+    &:hover{
+        background-color: $gl-orange_red;
+        color: $gl-white;
+    }
+}

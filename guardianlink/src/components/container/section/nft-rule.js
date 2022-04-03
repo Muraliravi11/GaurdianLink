@@ -1,4 +1,5 @@
 import FormInput from 'components/shared-ui/form-input';
+import LinkBtn from 'components/shared-ui/link-btn';
 import React from 'react';
 
 export const NftRule = () => { 
@@ -13,13 +14,13 @@ export const NftRule = () => {
                 <h4 >Build your NFT Marketplace in minutes with GuardianLink.</h4>
                 <p>No Mess. No Clutter. Only You.</p>
             </div>
-            <a href='https://www.guardianlink.io/' className='section__black-btn'>Join the Revolution!</a>
+            <LinkBtn href='https://www.guardianlink.io/' className='section__black-btn'>Join the Revolution!</LinkBtn>
 
             <div className="sub_form white_color">
                     <h3>I’m interested </h3>
                     <p>Be the first to hear about GuardianLink’s Updates</p>
                     
-                    <FormInput className='nft_rule-form'/>
+                    <FormInput className='nft_rule-form' subscribeBtn={true}/>
                     
                 </div>
         </section>
