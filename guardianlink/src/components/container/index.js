@@ -1,11 +1,17 @@
-import { NftRule } from "./nft-rule";
-import { BrandMarket } from "./brand-market"
-import { NftCreative } from "./nft-creative";
-import { SpiderTech } from "./spider-tech";
-import { LaunchPad } from "./launchpad";
-import { DesignCreators } from "./design-to-creaters";
-import { SupportSection } from "./support-section";
-import { Journey } from "./journey";
+import { NftRule } from "./section/nft-rule";
+import { BrandMarket } from "./section/brand-market"
+import { NftCreative } from "./section/nft-creative";
+import { SpiderTech } from "./section/spider-tech";
+import { LaunchPad } from "./section/launchpad";
+import { DesignCreators } from "./section/design-to-creaters";
+import { SupportSection } from "./section/support-section";
+import { Journey } from "./section/journey";
+import { AboutGaurdian } from "./section/about-gaurdian";
+import { JoinUs } from "./section/join-us";
+import { Ourteam } from "./section/our-team";
+import { OurInvestors } from "./section/our-investors";
+import { StickySocial } from "./sticky-social";
+
 const Container = () => { 
     return (
         <>
@@ -17,7 +23,12 @@ const Container = () => {
             <LaunchPad />
             <DesignCreators />
             <SupportSection />
-            <Journey/>
+            <Journey />
+            <AboutGaurdian />
+            <Ourteam />
+            <OurInvestors/>
+            <JoinUs />
+            <StickySocial/>
         </>
     )
 }

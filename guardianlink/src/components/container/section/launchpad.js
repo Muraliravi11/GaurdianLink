@@ -1,6 +1,4 @@
-import FormInput from 'components/shared-ui/form-input';
 import { Image } from 'components/shared-ui/image';
-import React from 'react';
 
 export const LaunchPad = () => { 
     return (

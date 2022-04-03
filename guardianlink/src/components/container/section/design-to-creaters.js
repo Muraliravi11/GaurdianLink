@@ -11,7 +11,7 @@ export const DesignCreators = () => {
             <div className='section__heading2'>
                 <h4 ><span className='white_color'>It is made for creators.</span> By creators.</h4>
             </div>
-            <span class="roun_icon roun_icon__big creative-icon"> </span>
+            <span className="roun_icon roun_icon__big creative-icon"> </span>
             <div className='db_screen'>
                 <Image src='https://cdn.guardianlink.io/product-hotspot/images/vogue_app_2.png' />
             </div>

@@ -11,6 +11,7 @@ export const Carousel = () => {
         pagination: false,
         arrows: false,
         rewind: true,
+        pauseOnHover: false
     }
     
     return (

@@ -31,8 +31,8 @@ export const Header = () => {
                 {!isMobile ? 
                     
                     <ul className='header__list'>
-                        {navLink.length && navLink.map(({ text, url, type, subMenu }) =>
-                            <ListItem url={url} text={text} type={type} subMenu={ subMenu }></ListItem>
+                        {navLink.length && navLink.map(({ text, url, type, subMenu }, index) =>
+                            <ListItem key={index} url={url} text={text} type={type} subMenu={ subMenu }></ListItem>
                         )}
                     </ul>
                     :

@@ -1,6 +1,4 @@
-import FormInput from 'components/shared-ui/form-input';
 import { Image } from 'components/shared-ui/image';
-import React from 'react';
 
 export const BrandMarket = () => { 
     return (
@@ -14,7 +12,7 @@ export const BrandMarket = () => {
            <div className='section__heading2'>
                 <h4 >Want to learn more about GuardianLink platform?</h4>
             </div>
-            <a href='#' className='section__black-btn'>Schedule A Meeting</a>
+            <a href="https://www.guardianlink.io/" className='section__black-btn'>Schedule A Meeting</a>
 
             <Image src='https://cdn.guardianlink.io/product-hotspot/images/marketplace_hand.png' className='hm_image' />
         </section>

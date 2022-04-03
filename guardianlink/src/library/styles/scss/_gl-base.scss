@@ -17,8 +17,8 @@ html,body{
 }
 
 .roun_icon{
-    width: 1.3em;
-    height: 1.3em;
+    width: 40px;
+    height: 40px;
     background: #fff;
     border: 0.23em solid #ff2600;
     border-radius: 50%;
@@ -27,6 +27,7 @@ html,body{
     top: -13px;
     z-index: 2;
     display: inline-block;
+    box-sizing: border-box;
   &__big{
     width: 65px;
     height: 65px;
@@ -45,4 +46,9 @@ html,body{
 
 .text-right {
   text-align: right;
+}
+.read-or-hide{
+  cursor: pointer;
+  font-size: 12px;
+  font-family: $gl-font-family-paragraph;
 }

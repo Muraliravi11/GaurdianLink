@@ -70,7 +70,7 @@ $gl-line-height-h5: 1.2;
 
 %gl-font-p1{
   font-family: $gl-font-family-paragraph;
-  
+  line-height: 25px;
   font-size: $gl-font-size-medium;
   @media (min-width: $gl-screen-lg) {
     font-size: $gl-font-size-base;

@@ -13,7 +13,7 @@ export const NftRule = () => {
                 <h4 >Build your NFT Marketplace in minutes with GuardianLink.</h4>
                 <p>No Mess. No Clutter. Only You.</p>
             </div>
-            <a href='#' className='section__black-btn'>Join the Revolution!</a>
+            <a href='https://www.guardianlink.io/' className='section__black-btn'>Join the Revolution!</a>
 
             <div className="sub_form white_color">
                     <h3>I’m interested </h3>

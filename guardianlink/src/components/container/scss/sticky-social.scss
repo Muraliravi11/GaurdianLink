@@ -1,0 +1,19 @@
+.sticky_social-icons{
+    position: fixed;
+    right: 1%;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .social__icon{
+        color: $gl-orange_red;
+        margin: 5px 0;
+        border: 0;
+        background-color: $gl-white;
+        border-radius: 6px;    
+    }
+
+}

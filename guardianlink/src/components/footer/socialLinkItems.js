@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactPlayer from 'react-player';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDiscord, faTelegram, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
@@ -10,8 +9,8 @@ export const SocialItems = () => {
         <>
             <h5>Community</h5>
 
-            {socialIcons && socialIcons.map(({ icon, url }) =>
-                <a className='social__icon' href={url}>
+            {socialIcons && socialIcons.map(({ icon, url }, index) =>
+                <a key={index} className='social__icon' href={url}>
                     <FontAwesomeIcon icon={ icon } />
                 </a>  
             )

@@ -1,10 +1,12 @@
 @import 'scss/gl-fonts';
 @import 'scss/gl-layout';
+@import 'scss/gl-color' ;
+@import 'scss/gl-typography';
 @import 'scss/gl-base';
 @import 'scss/gl-functions';
-@import 'scss/gl-color' ;
+
 @import 'scss/gl-spacing';
-@import 'scss/gl-typography';
+
 
 //components scss
 
@@ -18,3 +20,4 @@
 @import 'components/shared-ui/image';
 @import 'components/shared-ui/form-input';
 @import 'components/shared-ui/support-widget';
+@import 'components/shared-ui/profile';

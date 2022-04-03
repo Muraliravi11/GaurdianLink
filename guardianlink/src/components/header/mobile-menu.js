@@ -15,8 +15,8 @@ export const MobileMenu = ({ navLink }) => {
             </div>
             <nav className='sidebar__menu-wrap'>
                 <ul className='sidebar__menu-list'>
-                    {navLink.length && navLink.map(({ text, url, type, subMenu }) =>
-                        <ListItem url={url} text={text} type={type} subMenu={ subMenu }></ListItem>
+                    {navLink.length && navLink.map(({ text, url, type, subMenu },index) =>
+                        <ListItem key={index} url={url} text={text} type={type} subMenu={ subMenu }></ListItem>
                     )}
                 </ul>
             </nav>

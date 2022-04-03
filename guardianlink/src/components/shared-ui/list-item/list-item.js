@@ -19,8 +19,8 @@ export const ListItem = ({ url, text, type , subMenu} ) => {
                         {text}
                     </a>
                     <ul className='submenu__items'>
-                        {subMenu && subMenu.map(({ text, url }) =>
-                            <li>
+                        {subMenu && subMenu.map(({ text, url },index) =>
+                            <li key={index}>
                                 <a href={url} className='nav__link'> { text }</a>
                             </li>
                         )

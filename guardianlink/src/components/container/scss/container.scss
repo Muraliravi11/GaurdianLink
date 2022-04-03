@@ -28,10 +28,11 @@
                 font-size: 54px;
               }
             .roun_icon{
-                display: block;
                 margin: auto;
                 @media (min-width: $gl-screen-lg) {
                     display: inline-block;
+                    width: 60px;
+                    height: 60px;
                   }
             }
             &.smart-tit{
@@ -89,7 +90,10 @@
         @media (min-width: $gl-screen-lg) {
             font-size: 19px;
             line-height: 28px;
-          }
+        }
+        .bold{
+            font-family: $gl-font-family-medium;
+        }
     }
 
     &__black-btn{
@@ -170,13 +174,28 @@
         .section__heading{
             margin-top: 50px;
             h2{
+                font-size: 40px;
+                margin-top: 15px;
+                @media (min-width: $gl-screen-lg) {
+                    font-size: 54px;
+                    margin-top: 0px;
+                }
                 .roun_icon{
-                    width: 0.7em;
-                    height: 0.7em;
+                    width: 1em;
+                    height: 1em;
                     background: #fff;
                     border: 0.15em solid #ff2600;
+                    display: inline-block !important;
                 }
-                .dancing_man{
+            }
+            .dancing_man{
+                max-width: 88px;
+                position: relative;
+                top: 41px;
+                margin-top: -79px;
+                z-index: 11;
+                left: -13px;
+                @media (min-width: $gl-screen-lg) {
                     max-width: 100%;
                     position: relative;
                     top: 40px;
@@ -236,9 +255,66 @@
             }
         }
     }
+    &.about-gaurdian{
+        background-color: $gl-black;
+        img{
+            width: 35%;
+        }
+        p{
+            margin: 25px 0;
+            @media (min-width: $gl-screen-lg) {
+                margin: 50px 0;
+            }
+        }
+    }
+    &.join-us{
+        background-image: linear-gradient(to right, #903dff, #05f6ff);
+        .section__heading2{
+            margin-top: 50px;
+        }
+        .logo__sec{
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 80%;
+            margin: 40px auto;
+            align-items: center;
+            justify-content: center;
+            img{
+                max-width: 155px;
+                @media (min-width: $gl-screen-lg) {
+                    max-width: 250px;
+                }
+            }
+        }
+        .rn_cril {
+            margin-top: 40px;
+            .roun_icon__black{
+                top: 30px;
+            }
+            @media (min-width: $gl-screen-lg) {
+                position: absolute;
+                bottom: 155px;
+                left: 10%;
+                margin: 0;
+            }
+        }
+    }
+    &.our-team{
+        .roun_icon {
+            @media (min-width: $gl-screen-lg) {
+                width: 70px;
+                height: 70px;
+            }
+        }
+        .our-team__wrap{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
 }
 .border-line{
-    border-bottom: 1px solid #000;
+    // border-bottom: 1px solid #000;
     clear: both;
 }
 

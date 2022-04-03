@@ -13,22 +13,22 @@ export const Journey = () => {
 
             <div className="count__sec-wrap">
                 <div className="count__sec">
-                    <div class="num_s">
-                        <h2><span class="h_num">45</span> NFT <b class="white_color">Exchanges <br/>Powered </b></h2>
+                    <div className="num_s">
+                        <h2><span className="h_num">45</span> NFT <b className="white_color">Exchanges <br/>Powered </b></h2>
                     </div>
-                    <div class="num_s">
-                        <h2><span class="h_num">45</span> NFT <b class="white_color">Exchanges <br/>Powered </b></h2>
+                    <div className="num_s">
+                        <h2><span className="h_num">45</span> NFT <b className="white_color">Exchanges <br/>Powered </b></h2>
                     </div>
                 </div>
                 <div className="count__sec">
-                    <div class="num_s">
-                        <h2><span class="h_num">160</span> GuardianLink <br/><span class="white_color">Active </span></h2>
+                    <div className="num_s">
+                        <h2><span className="h_num">160</span> GuardianLink <br/><span className="white_color">Active </span></h2>
                     </div>
-                    <div class="num_s">
-                        <h2><span class="h_num">40</span> <span class="white_color">Social Tokens<br/> Launched</span></h2>
+                    <div className="num_s">
+                        <h2><span className="h_num">40</span> <span className="white_color">Social Tokens<br/> Launched</span></h2>
                     </div>
-                    <div class="num_s">
-                        <h2><span class="h_num">30</span> <span class="white_color">Countries<br/> Worldwide</span></h2>
+                    <div className="num_s">
+                        <h2><span className="h_num">30</span> <span className="white_color">Countries<br/> Worldwide</span></h2>
                     </div>
                 </div>
             </div>

@@ -3,7 +3,11 @@ import { Image } from "components/shared-ui/image"
 
 export const SupportSection = () => { 
     return (
-        <section className="support_section">
+        <section className=" section support_section">
+            <div className="section__heading">
+                <h2>Intelligently <span className="red_txt">Integrated</span></h2>
+                <p>Publishing. Plug-ins. Wallets. Markets.</p>
+            </div>
             <SupportWidget className='third__party' title='Third Party Exchange Supported' badgeColor='red'>
                 <Image width={200} src="https://cdn.guardianlink.io/product-hotspot/images/exchange_1.png" />
                 <Image width={85} src="https://cdn.guardianlink.io/product-hotspot/images/exchange_2.png" />
@@ -23,7 +27,7 @@ export const SupportSection = () => {
                 <Image src="https://cdn.guardianlink.io/product-hotspot/images/widget_4.png" />
             </SupportWidget>
 
-            <a href='' className='section__black-btn'>Power with Partnership {'>'}</a>
+            <a href='https://www.guardianlink.io/' className='section__black-btn'>Power with Partnership {'>'}</a>
 
         </section>
     )

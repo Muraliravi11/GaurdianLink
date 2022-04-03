@@ -22,8 +22,8 @@ export const Footer = () => {
             </div>
             <div className='footer__list-wrap'>
                 <ul>
-                {navLink.length && navLink.map(({ text, url,type }) =>
-                    <ListItem url={url} text={text} type={ type}/>
+                {navLink.length && navLink.map(({ text, url,type }, index) =>
+                    <ListItem key={index} url={url} text={text} type={ type}/>
                 )}
                 </ul>
             </div>
