@@ -30,7 +30,7 @@
         }
 
         &.isOpen{
-            width: 70%;
+            width: 90%;
             background: #ed2d34;
             .hamberger_menu{
                 margin-top: 55px;
@@ -49,6 +49,9 @@
                         transform: rotate(130deg);
                     }
                 }
+            }
+            @media (min-width: $gl-screen-sm) {
+                width: 70%;
             }
         }
 

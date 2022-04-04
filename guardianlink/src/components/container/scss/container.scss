@@ -205,12 +205,16 @@
             }
         }
         .count__sec-wrap{
-            max-width: 50em;
+            max-width: 27em;
             margin: 40px auto 0;
             
-            @media (min-width: $gl-screen-lg) {
+            @media (min-width: $gl-screen-md) {
                 display: flex;
                 justify-content: space-between;
+                max-width: 42em;
+            }
+            @media (min-width: $gl-screen-lg) {
+                max-width: 50em;
             }
             .count__sec{
                 padding: 0 10px;
@@ -239,6 +243,14 @@
                         }
                         .h_num{
                             font-size: 70px;
+                        }
+                    }
+                    @media (max-width: 400px) {
+                        padding-left: 90px;
+                        h2{
+                        }
+                        .h_num{
+                            width: 80px;
                         }
                     }
                 }

@@ -17,7 +17,7 @@ export const Journey = () => {
                         <h2><span className="h_num">45</span> NFT <b className="white_color">Exchanges <br/>Powered </b></h2>
                     </div>
                     <div className="num_s">
-                        <h2><span className="h_num">45</span> NFT <b className="white_color">Exchanges <br/>Powered </b></h2>
+                        <h2><span className="h_num">$3B</span> Market Capitalization <b className="white_color">Created</b></h2>
                     </div>
                 </div>
                 <div className="count__sec">
